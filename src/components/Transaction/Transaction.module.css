@@ -1,0 +1,55 @@
+.transaction__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.text,
+.amount {
+  color: white;
+}
+
+.red {
+  border: 2px solid white;
+  border-radius: 5px;
+  border-right: 5px solid red;
+}
+
+.green {
+  border: 2px solid white;
+  border-radius: 5px;
+  border-right: 5px solid green;
+}
+
+.delete__button {
+  background-color: var(--light-green);
+  border: none;
+  color: white;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.25s ease;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete__button:hover {
+  background-color: var(--light-pink);
+  transition: all 0.25s ease;
+}
+
+.delete__icon {
+  height: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amount {
+  margin-right: 20px;
+}

@@ -1,0 +1,38 @@
+.transaction-form-container > * {
+  margin-bottom: 20px;
+  color: white;
+  overflow-x: hidden;
+}
+
+.transaction-form > * {
+  margin: 5px 0px;
+}
+
+.description-input,
+.amount-input {
+  padding: 10px;
+  color: #1c1c1c;
+  font-size: 18px;
+  /* width: 100%; */
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+
+.add-btn {
+  cursor: pointer;
+  background-color: var(--light-green);
+  color: #1c1c1c;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px 0px;
+  padding-bottom: 10px;
+  width: 100%;
+  transition: all 0.25s ease;
+}
+
+.add-btn:hover {
+  background-color: var(--light-pink);
+  color: #1c1c1c;
+  transition: all 0.25s ease;
+}

@@ -1,0 +1,45 @@
+.income__expense__container {
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px black;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.income__container,
+.expense__container {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.income__container > *,
+.expense__container > * {
+  margin: 2px 0px;
+}
+
+.balance__container {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.balance__heading,
+.balance {
+  margin: 0;
+}
+
+.financials {
+  margin-bottom: 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
