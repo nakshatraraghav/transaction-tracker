@@ -54,7 +54,7 @@ const TransactionForm = () => {
         </p>
         <p className="input-information">{"(+ve => Income, -ve => Expense)"}</p>
         <input
-          type="number"
+          type="text"
           ref={amountRef}
           onChange={(event) => {
             setAmount(+event.target.value);
